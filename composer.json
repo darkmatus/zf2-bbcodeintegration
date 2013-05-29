@@ -3,7 +3,7 @@
     "description": "Integration of Decoda BBCode-parser as ViewHelper into ZF2.",
     "type": "library",
     "keywords": [
-        "zf2, BBCode, Integration"
+        "BBCode"
     ],
     "homepage": "https://github.com/darkmatus/zf2-bbcodeintegration",
     "authors": [
