@@ -16,7 +16,7 @@
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.*",
-  "mjohnson/decoda": "6.*"
+        "mjohnson/decoda": "6.*"
     },
     "autoload": {
         "psr-0": {
