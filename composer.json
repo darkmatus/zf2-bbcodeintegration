@@ -1,0 +1,29 @@
+{
+    "name": "darkmatus/zf2-bbcodeintegration",
+    "description": "Integration of Decoda BBCode-parser as ViewHelper into ZF2.",
+    "type": "library",
+    "keywords": [
+        "zf2, BBCode, Integration"
+    ],
+    "homepage": "https://github.com/darkmatus/zf2-bbcodeintegration",
+    "authors": [
+        {
+            "name": "Darkmatus",
+            "email": "mueller@s-p-it.de",
+            "homepage": "https://github.com/darkmatus/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+  "mjohnson/decoda": "6.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "BBCodeIntegration": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
