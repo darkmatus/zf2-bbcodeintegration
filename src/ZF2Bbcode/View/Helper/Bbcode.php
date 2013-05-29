@@ -6,7 +6,6 @@ use Zend\View\Helper\AbstractHelper;
 
 class Bbcode extends AbstractHelper
 {
-    protected $request;
 
     public function __invoke($request)
     {
