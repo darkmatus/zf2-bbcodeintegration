@@ -5,7 +5,7 @@ Integration of Decoda bbcode parser as ViewHelper in ZF2
 
 Installation:
 
-Copy/move the 'emoticons' folder from 'vendor/mjohnson/decoda to public/images/'.
+Copy/move the 'emoticons' folder from 'vendor/mjohnson/decoda' to 'public/images/'.
 Add 'ZF2Bbcode' to your 'application.config.php'.
 
 Using:
