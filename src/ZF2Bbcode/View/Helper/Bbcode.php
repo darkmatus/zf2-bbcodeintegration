@@ -11,6 +11,7 @@ class Bbcode extends AbstractHelper
     {
         $bbcode = new Decoda($request);
         $bbcode->defaults();
+        $bbcode->addHook(new EmoticonHook(array('path' => '../../images/emoticons/')));
         return $bbcode->parse();
     }
 }
