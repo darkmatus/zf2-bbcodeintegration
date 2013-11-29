@@ -2,6 +2,7 @@
 namespace ZF2Bbcode\View\Helper;
 
 use Decoda\Decoda;
+use Decoda\Hook\EmoticonHook;
 use Zend\View\Helper\AbstractHelper;
 
 class Bbcode extends AbstractHelper
