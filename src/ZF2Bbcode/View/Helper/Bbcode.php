@@ -10,9 +10,10 @@ class Bbcode extends AbstractHelper
 
     public function __invoke($request)
     {
+        $url    = $this->view->basePath();
         $bbcode = new Decoda($request);
         $bbcode->defaults();
-        $bbcode->addHook(new EmoticonHook(array('path' => '../../images/emoticons/')));
+        $bbcode->addHook(new EmoticonHook(array('path' => $url . '/images/emoticons/')));
         return $bbcode->parse();
     }
 }
